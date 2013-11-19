@@ -1,6 +1,6 @@
 console.log('\'Allo \'Allo!');
 
-$(function() {
+$(document).ready(function(){
 	$('.fadein img:gt(0)').hide();
 
 		setInterval(function () {
