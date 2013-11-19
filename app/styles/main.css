@@ -9,10 +9,22 @@ body {
     background-size: cover; 
     }
 
+.topHeader {
+    opacity: 0.96;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    z-index: 10;
+    padding: 60px 60px;
+    background-color: #2f2f42;
+}
+
 
 .hero-unit {
-    margin: 50px auto 0 auto;
-    width: 300px;
+    margin: 245px auto 0 auto;
+    width: 400px;
+    height: 248px;
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
