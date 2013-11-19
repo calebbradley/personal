@@ -85,3 +85,9 @@ body {
     line-height: 25px;
 }
 
+.mainSection {
+    margin-left: -30px;
+    margin-right: -30px;
+    height: 1200px;
+    background-color: white;
+}
