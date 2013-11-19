@@ -1,8 +1,14 @@
 body {
     background: #fafafa;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
-}
+    color: #333; 
+    background-image: url('bikes.png');
+    background-repeat: repeat-x, no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%, 50% 50%; 
+    background-size: cover; 
+    }
+
 
 .hero-unit {
     margin: 50px auto 0 auto;
