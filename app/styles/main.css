@@ -2,7 +2,7 @@ body {
     background: #fafafa;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333; 
-    background-image: url('bikes.png');
+    background-image: url('2013_11_19_4_55_38.jpg');
     background-repeat: repeat-x, no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%, 50% 50%; 
@@ -19,7 +19,6 @@ body {
     padding: 36px;
     background-color: #2f2f42;
 }
-
 
 .hero-unit {
     margin: 177px auto 0 auto;
