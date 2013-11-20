@@ -101,7 +101,14 @@ body {
     z-index: 10;
     height: 324px;
     background-color: #2f2f42;
+    color: lightgrey;
+    text-align: center;
 } 
+
+.subSection h1 {
+    margin-top: 0px;
+    padding-top: 5%;
+}
 
 .Footer {
     margin-left: -30px;
@@ -145,4 +152,30 @@ body {
     font-weight: 200;
     line-height: 30px;
     border-bottom: .99px solid lightgrey;   
+}
+
+.hero-unit2 {
+    margin-left: 9.91%;
+    float: left;
+    text-align: center;
+    width: 40%;
+    height: 640px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 30px;
+    border-bottom: .99px solid lightgrey;
+    border-right: .99px solid lightgrey;
+}
+
+.hero-unit3 {
+    margin-right: 9.95%;
+    float: right;
+    text-align: center;
+    width: 40%;
+    height: 640px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 30px;
+    border-bottom: .99px solid lightgrey; 
+    border-left: .99px solid lightgrey;
 }
