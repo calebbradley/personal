@@ -17,8 +17,46 @@ body {
     top: 0px;
     right: 0px;
     z-index: 10;
-    padding: 36px;
     background-color: #2f2f42;
+}
+
+h3 {
+    color: lightgrey;
+    font-size: 21px;
+    margin-left: 7%;
+}
+
+.topHeader .nav {
+    display: inline-block;
+    float: right;
+    margin-top: -47px;
+    margin-right: 7%;
+
+}
+
+.topHeader .nav li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+li a {
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 5px;
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+li a:hover {
+    border: 1px solid lightgreen;
+    color: lightgreen;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bolder;
 }
 
 .hero-unit {
