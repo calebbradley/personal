@@ -147,6 +147,28 @@ li a:hover {
     padding-top: 5%;
 }
 
+.info {
+    color: #22BCB9;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.info1 {
+    color: #22BCB9;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.info:hover {
+    color: #13EDEA;
+    font-weight: bold;
+}
+
+.info1:hover {
+    color: #13EDEA;
+    font-weight: bold;
+}
+
 .Footer {
     margin-left: -30px;
     margin-right: -30px;
@@ -154,6 +176,13 @@ li a:hover {
     height: 50px;
     background-color: #22BCB9;
     margin-bottom: -8px;
+}
+
+.tree {
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 5px;
 }
 
 .fadein {
