@@ -7,7 +7,8 @@ body {
     background-attachment: fixed;
     background-position: 50% 50%, 50% 50%; 
     background-size: cover; 
-    }
+
+}
 
 .topHeader {
     opacity: 0.96;
@@ -125,8 +126,23 @@ body {
 }
 
 .fadeWrap {
+    display: inline-block;
     height: 320px;
     width: 320px;
     padding-top: 7%;
-    padding-left: 12%;
+}
+
+.topRight {
+    display: inline-block;
+    margin-left: 14%;
+}
+
+.hero-unit1 {
+    margin: 0 auto 0 auto;
+    width: 77%;
+    height: 480px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 30px;
+    border-bottom: .99px solid lightgrey;   
 }
