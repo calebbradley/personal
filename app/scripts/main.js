@@ -1,4 +1,4 @@
-console.log('\'Hey man! \'Whats New?!');
+console.log('\'Hey man! \'Go ahead...Break me!');
 
 $(document).ready(function(){
 	$('.fadein img:gt(0)').hide();
