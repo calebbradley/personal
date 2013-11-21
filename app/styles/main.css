@@ -18,6 +18,7 @@ body {
     right: 0px;
     z-index: 10;
     background-color: #2f2f42;
+    height: 63px;
 }
 
 h3 {
@@ -45,9 +46,10 @@ li a {
     border: 1px solid #22BCB9;
     border-radius: 4px;
     padding: 7px;
-    color: teal;
+    color: #22BCB9;
     text-decoration: none;
     font-size: 17px;
+    box-shadow: #111214 0px 1px 3px 0px;
 }
 
 li a:hover {
