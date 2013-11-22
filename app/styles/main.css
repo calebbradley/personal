@@ -224,16 +224,14 @@ li a:hover {
 }
 
 .hero-unit2 {
-    margin-left: 9.91%;
-    float: left;
+    margin-left: 21%;
+    margin-right: 21%;
     text-align: center;
-    width: 40%;
     height: 640px;
     font-size: 21px;
     font-weight: 200;
     line-height: 30px;
     border-bottom: .99px solid lightgrey;
-    border-right: .99px solid lightgrey;
     padding: 21px;
 }
 
@@ -245,18 +243,4 @@ li a:hover {
 .hero-unit2 a:hover {
     text-decoration: none;
     color: #13EDEA;
-}
-
-.hero-unit3 {
-    margin-right: 9.95%;
-    float: right;
-    text-align: center;
-    width: 34.34%;
-    height: 640px;
-    font-size: 21px;
-    font-weight: 200;
-    line-height: 30px;
-    border-bottom: .99px solid lightgrey; 
-    border-left: .99px solid lightgrey;
-    padding: 21px;
 }
