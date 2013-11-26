@@ -250,6 +250,61 @@ li a:hover {
     color: #13EDEA;
 }
 
+.ribbon-wrapper-yellow {
+    margin: -63px -63px 0 auto;
+    width: 85px;
+    height: 88px;
+    overflow: hidden;
+    top: 167px;
+    right: 451px;
+}
+
+.ribbon-yellow a {
+    text-decoration: none;
+    font: bold 15px Sans-Serif;
+    color: #333;
+    text-align: center;
+}
+
+.ribbon-yellow {
+    padding: .58px 0px;
+    text-align: center;
+    text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform:    rotate(45deg);
+    -ms-transform:     rotate(45deg);
+    -o-transform:      rotate(45deg);
+    position: relative;
+    left: -5px;
+    top: 15px;
+    width: 120px;
+    background-color: #F3F315;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#F3F315), to(yellow)); 
+    background-image: -webkit-linear-gradient(top, #F3F315, yellow); 
+    background-image:    -moz-linear-gradient(top, #F3F315, yellow); 
+    background-image:     -ms-linear-gradient(top, #F3F315, yellow); 
+    background-image:      -o-linear-gradient(top, #F3F315, yellow); 
+    color: #6a6340;
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+    box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.ribbon-yellow:before, .ribbon-yellow:after {
+    content: "";
+    border-top:   3px solid #F9CE00;   
+    border-left:  3px solid transparent;
+    border-right: 3px solid transparent;
+    position:absolute;
+    bottom: -3px;
+}
+
+.ribbon-yellow:before {
+    left: 0;
+}
+.ribbon-yellow:after {
+    right: 0;
+}
                                         /* wwwwwwwww        1400px        wwwwwwwwwwww*/
 
 @media (max-width: 1400px) {
@@ -267,18 +322,18 @@ li a:hover {
         .topRight {
                 font-size: 20px;
                 transition:all 1s ease-in-out; 
-            -o-transition:all 1s ease-in-out; 
-            -moz-transition:all 1s ease-in-out; 
-            -webkit-transition:all 1s ease-in-out;
+                -o-transition:all 1s ease-in-out; 
+                -moz-transition:all 1s ease-in-out; 
+                -webkit-transition:all 1s ease-in-out;
         } 
 
         .fadeWrap {
                 margin-left: 33%;
                 text-align: center;
                 transition:all 1s ease-in-out; 
-            -o-transition:all 1s ease-in-out; 
-            -moz-transition:all 1s ease-in-out; 
-            -webkit-transition:all 1s ease-in-out;
+                -o-transition:all 1s ease-in-out; 
+                -moz-transition:all 1s ease-in-out; 
+                -webkit-transition:all 1s ease-in-out;
         }        
 }
                                         /* wwwwwwwww        960px        wwwwwwwwwwww*/
@@ -304,7 +359,29 @@ li a:hover {
         }
 
         .fadein {
+            margin-left: -3%;
             margin-top: 7%;
             position: relative;
         }
+}
+
+                                        /* wwwwwwwww        720px        wwwwwwwwwwww*/
+@media (max-width: 720px) {
+
+    .fadein {
+        margin-left: -18%;
+        transition:all 1s ease-in-out; 
+        -o-transition:all 1s ease-in-out; 
+        -moz-transition:all 1s ease-in-out; 
+        -webkit-transition:all 1s ease-in-out;
+    }
+
+    .topRight {
+        margin-top: 7%;
+        transition:all 1s ease-in-out; 
+        -o-transition:all 1s ease-in-out; 
+        -moz-transition:all 1s ease-in-out; 
+        -webkit-transition:all 1s ease-in-out;
+    }
+
 }
