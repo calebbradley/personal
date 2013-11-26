@@ -27,8 +27,10 @@ body {
 
 h3 {
     color: #22BCB9;
-    font-size: 21px;
+    font-family: 'Lobster';
+    font-size: 25px;
     margin-left: 12%;
+    margin-top: 1%;
 }
 
 .topHeader .nav {
@@ -49,9 +51,10 @@ h3 {
 li a {
     border: 1px solid #22BCB9;
     border-radius: 4px;
-    padding: 7px;
+    padding: 6px;
     color: #22BCB9;
     text-decoration: none;
+    font-family: 'Cabin';
     font-size: 17px;
     box-shadow: #111214 0px 1px 3px 0px;
 }
@@ -67,6 +70,7 @@ li a:hover {
     margin: 170px auto 0 auto;
     width: 400px;
     height: 336px;
+    font-family: 'Cabin';
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
@@ -78,6 +82,7 @@ li a:hover {
 }
 
 .hero-unit h1 {
+    font-family: 'Lobster';
     font-size: 60px;
     line-height: 1;
     letter-spacing: -1px;
@@ -104,6 +109,7 @@ li a:hover {
     color: lightgrey;
     font-size: 36px;
     line-height: 100px;
+    font-family: 'Cabin';
     font-weight: 300;
     text-align: center;
     letter-spacing: 2px;
@@ -133,6 +139,7 @@ li a:hover {
     margin-right: -30px;
     min-height: 1200px;
     background-color: white;
+    font-weight: lighter;
 }
 
 .subSection {
@@ -145,9 +152,12 @@ li a:hover {
     background-color: #2f2f42;
     color: lightgrey;
     text-align: center;
+    font-size: 17px;
+    font-family: 'Cabin';
 } 
 
 .subSection h1 {
+    font-family: 'Lobster';
     margin-top: 0px;
     padding-top: 5%;
 }
@@ -211,7 +221,12 @@ li a:hover {
     padding-top: 7%;
 }
 
+.topRight h1 {
+    font-family: 'Lobster';
+}
+
 .topRight {
+    font-family: 'Cabin';
     display: inline-block;
     margin-left: 14%;
 }
@@ -226,18 +241,21 @@ li a:hover {
     border-bottom: .99px solid lightgrey;   
 }
 
+.hero-unit2 h1 {
+    font-family: 'Lobster'
+}
+
 .hero-unit2 {
     margin: 0 auto 0 auto;
     margin-left: 21%;
     margin-right: 21%;
     text-align: center;
     min-height: 721px;
+    font-family: 'Cabin';
     font-size: 21px;
-    font-weight: 200;
     line-height: 30px;
     border-bottom: .99px solid lightgrey;
-    padding: 21px;
-    overflow-y: scroll; 
+    padding: 21px; 
 }
 
 .hero-unit2 a {
@@ -261,6 +279,7 @@ li a:hover {
 
 .ribbon-yellow a {
     text-decoration: none;
+    font-family: 'Cabin';
     font: bold 15px;
     color: #333;
     text-align: center;
@@ -373,6 +392,7 @@ li a:hover {
 
 #ribbon a {
     color: yellow;
+    font-family: 'Cabin'
 }
 
                                         /* wwwwwwwww        1400px        wwwwwwwwwwww*/
